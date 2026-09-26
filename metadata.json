@@ -1,0 +1,7 @@
+{
+  "name": "SubSense — Subscription Waste Detector",
+  "description": "Smart subscription intelligence powered by Gemini API, Cloud Run, and Cloud SQL to detect wasted recurring spending and analyze usage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
