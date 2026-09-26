@@ -13,10 +13,9 @@ COPY . .
 RUN npm run build
 
 # Expose Cloud Run default port
-EXPOSE 3000
+EXPOSE 8080
 
 ENV NODE_ENV=production
-ENV PORT=3000
 
 # Start server
 CMD ["npx", "tsx", "server.ts"]
